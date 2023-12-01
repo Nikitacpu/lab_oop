@@ -136,7 +136,7 @@ city = City("Минск")  # Создаем город Минск
 building = Building("Ленина", 1, 100.0)
 city.add_building(building)  # Добавляем здание в город
 building.add_room(Room(1, 50.0))
-building.add_room(Apartment(2, 75.0, ["Васильев"]))  # Добавляем в здание квартиру площадью 75.0 кв. м с жильцом Иванов И.И.
+building.add_room(Apartment(2, 75.0, ["Васильев"]))  
 building.add_room(Office(3, 100.0, "Офиис 1 ", "Офис2 "))
 print(building.total_area)  # Выводим общую площадь всех помещений в здании
 
